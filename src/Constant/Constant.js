@@ -1,5 +1,6 @@
 const devUrl = "http://localhost:4010/";
-const prodUrl = "https://mangement-system-backend.onrender.com/";
+// const prodUrl = "https://mangement-system-backend.onrender.com/";
+const prodUrl = "https://lms-backend-production-23c7.up.railway.app/";
 
 // export const BASE_URL = prodUrl;
 export const BASE_URL = devUrl;
