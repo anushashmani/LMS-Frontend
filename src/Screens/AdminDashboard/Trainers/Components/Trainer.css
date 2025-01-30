@@ -1,0 +1,10 @@
+.custom-table {
+    box-shadow: 0 4px 6px rgba(0, 0, 255, 0.2); /* Adjust the blue intensity as needed */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    overflow: hidden; /* Ensure the shadow applies correctly */
+  }
+  
+  .custom-table .ant-table {
+    border-radius: inherit; /* Match table corners with shadow */
+  }
+

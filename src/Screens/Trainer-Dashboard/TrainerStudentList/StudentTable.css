@@ -1,0 +1,44 @@
+.custom-table-wrapper {
+    width: 100%;
+    overflow-x: auto; /* Ensure horizontal scroll only within table */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
+  }
+  
+  .custom-table {
+    min-width: 600px; /* Minimum width to prevent content overflow */
+    table-layout: auto; /* Let the table adjust column widths */
+  }
+  
+  .custom-table .ant-table {
+    width: 100%; /* Ensure the table takes the full width of its container */
+  }
+  
+  .custom-table .ant-table-thead > tr > th,
+  .custom-table .ant-table-tbody > tr > td {
+    padding: 12px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .custom-table .ant-table-thead > tr > th,
+    .custom-table .ant-table-tbody > tr > td {
+      font-size: 12px;
+    }
+  
+    .custom-table .ant-pagination {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .custom-table .ant-table {
+      font-size: 10px;
+    }
+  
+    .custom-table .action-btn {
+      padding: 4px;
+      font-size: 12px;
+    }
+  }
+  
