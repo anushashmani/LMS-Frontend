@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage } from "@/Components/ui/avatar";
 import FinanceSection from "../Compunents/FinanceSection";
 import { EnrolledCourses } from "../Compunents/EnrolledCourses";
 import { useAuth } from "@/Context/AuthContext";
